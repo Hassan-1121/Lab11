@@ -1,0 +1,116 @@
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: lightcyan;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 85%;
+  background-color: white;
+  margin: 40px auto;
+  padding: 20px;
+  border: 4px solid lightseagreen;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px;
+  color: teal;
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  color: mediumturquoise;
+}
+
+#friends {
+  width: 25%;
+  float: left;
+  background-color: turquoise;
+  border: 3px solid teal;
+  padding: 15px;
+  margin-right: 20px;
+  color: darkslategray;
+  box-sizing: border-box;
+}
+
+#friends h3 {
+  font-size: 24px;
+  color: darkcyan;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#friends ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 25px;
+}
+
+#friends li {
+  margin-bottom: 8px;
+}
+
+#friends a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+}
+
+#friends a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+
+.entry {
+  width: 68%;
+  float: left;
+  background-color: azure;
+  border: 2px solid mediumturquoise;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.entry h2 {
+  color: teal;
+  font-size: 18px;
+  border-bottom: 2px dotted mediumturquoise;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.entry p {
+  color: dimgray;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.entry img {
+  float: right;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+  border: 2px solid teal;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  color: teal;
+  background-color: lightblue;
+  margin-top: 20px;
+}
